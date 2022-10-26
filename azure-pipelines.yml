@@ -8,8 +8,6 @@ trigger:
 
 pool:
   name: default
-  demands:
-  - Agent.Version -gtVersion 2.204.0
 
 steps:
 - task: NodeTool@0
